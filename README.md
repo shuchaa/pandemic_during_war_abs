@@ -1,7 +1,7 @@
-# Spatio-Temporal Model of Pandemic Spread During Warfare with Dual-use Healthcare System
+# Spatio-Temporal SIR Model of Pandemic Spread During Warfare with Optimal Dual-use Healthcare System Administration using Deep Reinforcement Learning
 
 ## Abstract
-Large-scale crises such as war and pandemics have repeated over history. In some cases, the two occur at the same time and place, challenging the affected society. Understanding the dynamics of epidemic spread during warfare is essential for developing effective containment strategies in complex conflict zones. While research has explored epidemic models in various settings, the impact of warfare on epidemic dynamics remains underexplored. In this study, we proposed a novel mathematical model that integrates the epidemiological SIR (susceptible-infected-recovered) model with the war dynamics Lanchester model to explore the dual influence of war and pandemic on a population's mortality. Moreover, we consider a dual-use military and civil healthcare system that aims to reduce the overall mortality rate. Using an agent-based simulation and deep reinforcement learning, we conducted an intensive _in silico_ investigation. Our results show that a pandemic during war conduces chaotic dynamics where the healthcare system should either prioritize war-injured soldiers or pandemic-infected civilians based on the immediate amount of mortality from each option, ignoring long-term objectives. Our findings underscore the need for incorporating conflict-related factors into epidemic modeling to improve preparedness and response strategies in conflict-affected areas.
+Large-scale crises such as war and pandemics have repeated over history. In some cases, the two occur at the same time and place, challenging the affected society. Understanding the dynamics of epidemic spread during warfare is essential for developing effective containment strategies in complex conflict zones. While research has explored epidemic models in various settings, the impact of warfare on epidemic dynamics remains underexplored. In this study, we proposed a novel mathematical model that integrates the epidemiological SIR (susceptible-infected-recovered) model with the war dynamics Lanchester model to explore the dual influence of war and pandemic on a population's mortality. Moreover, we consider a dual-use military and civil healthcare system that aims to reduce the overall mortality rate which can use different administration policies. Using an agent-based simulation to generate __in silico__ data, we trained a deep reinforcement learning model for healthcare administration policy and conducted an intensive investigation on its performance. Our results show that a pandemic during war conduces chaotic dynamics where the healthcare system should either prioritize war-injured soldiers or pandemic-infected civilians based on the immediate amount of mortality from each option, ignoring long-term objectives. Our findings underscore the need for incorporating conflict-related factors into epidemic modeling to improve preparedness and response strategies in conflict-affected areas.
 
 ![fighting soldier](images/war_zone.jpg)
 
@@ -37,8 +37,8 @@ python paper.py --help
 Please cite the SciMED work if you compare, use, or build on it:
 ```
 @article{lazebnik2025pandemicwar,
-        title={Spatio-Temporal Model of Pandemic Spread During Warfare with Dual-use Healthcare System},
-        author={Shuchami, Adi and Givon-Lavi, Noga and Lazebnik, Teddy},
+        title={Spatio-Temporal SIR Model of Pandemic Spread During Warfare with Optimal Dual-use Healthcare System Administration using Deep Reinforcement Learning},
+        author={Shuchami, Adi and Lazebnik, Teddy},
         journal={TBD},
         year={2025}
 }
